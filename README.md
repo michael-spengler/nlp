@@ -10,3 +10,7 @@ deno run --allow-net --reload https://raw.githubusercontent.com/michael-spengler
 deno test --allow-net --reload https://raw.githubusercontent.com/michael-spengler/nlp/master/test.ts
 
 ``` 
+
+## Background Info
+This module leverages https://github.com/fancy-flashcard/fancy-nlp until a pure Deno based solution is available.  
+Feel free to contribute vie pull requests. 
