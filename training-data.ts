@@ -1,4 +1,4 @@
-{
+export const exampleTrainingData = `{
     "documents": [
         {
             "languageCode": "en",
@@ -28,4 +28,4 @@
             "output": ":) Hi. How are you?"
         }
     ]
-}
+}`
