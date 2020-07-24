@@ -5,6 +5,9 @@ import {exampleTrainingData} from 'https://raw.githubusercontent.com/michael-spe
 
 const languages = ['en']
 
-const clientId = (await NLP.train(exampleTrainingData.documents, exampleTrainingData.answers, languages)).clientId
-console.log(await NLP.getResponse('Hi', languages[0], clientId))
+const trainingResult = await NLP.train(exampleTrainingData.documents, exampleTrainingData.answers, languages)
+console.log(`trainingResult: \n${trainingResult}`)
+
+const response = await NLP.getResponse('Hi', languages[0], trainingResult.clientId)
+console.log(`response: \n${response}`)
 

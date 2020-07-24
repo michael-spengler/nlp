@@ -8,10 +8,12 @@ export class NLP {
         console.log(`training successful`)
         return result
     }
-
+    
     public static async getResponse(input: string, languageCode: string, clientId: string, nlpProvider: string = "https://fancy-chats.com:4443"): Promise<any> {
         const url = `${nlpProvider}/process/input/${input}/languageCode/${languageCode}/clientId/${clientId}`
-        return (await api.get(url))
+        const result = await api.get(url)
+        console.log(`getting response successful`)
+        return result
     }
 }
 
