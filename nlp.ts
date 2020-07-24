@@ -7,8 +7,10 @@ export class NLP {
         return api.post(`${nlpProvider}/train/`, { documents, answers, languageCodes })
     }
 
-    public static async process(input: string, languageCode: string, nlpProvider: string = "https://fancy-chats.com:4443"): Promise<any> {
-        return (await api.get(`${nlpProvider}/process/input/${input}/languageCode/${languageCode}`))
+    public static async getResponse(input: string, languageCode: string, clientId: string, nlpProvider: string = "https://fancy-chats.com:4443"): Promise<any> {
+        const url = `${nlpProvider}/process/input/${input}/languageCode/${languageCode}/clientId/${clientId}`
+        console.log(`calling: ${url}`)
+        return (await api.get(url))
     }
 }
 

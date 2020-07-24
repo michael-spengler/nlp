@@ -20,7 +20,7 @@ Deno.test("training and getting an appropriate response ", async (): Promise<voi
 });
 
 async function assertAppropriateResponse(clientId: string): Promise<void> {
-    const answer = await NLP.process('Hi', 'en', clientId)
+    const answer = await NLP.getResponse('Hi', 'en', clientId)
 
     if (answer.indexOf('Hi') === -1) {
         fail("error during getting an appropriate answer")
