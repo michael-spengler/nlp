@@ -7,5 +7,5 @@ const languages = ['en']
 
 
 const clientId = (await NLP.train(exampleTrainingData.documents, exampleTrainingData.answers, languages)).clientId
-console.log(await NLP.getResponse('Hi', 'en', clientId))
+console.log(await NLP.getResponse('Hi', languages[0], clientId))
 
