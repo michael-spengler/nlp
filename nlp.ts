@@ -4,7 +4,7 @@ import { IDocument, IAnswer } from "https://raw.githubusercontent.com/michael-sp
 export class NLP {
     
     public static async train(documents: IDocument[], answers: IAnswer[], languageCodes: string[], nlpProvider: string = "https://fancy-chats.com:4443"): Promise<any> {
-        const result = api.post(`${nlpProvider}/train/`, { documents, answers, languageCodes })
+        const result = await api.post(`${nlpProvider}/train/`, { documents, answers, languageCodes })
         console.log(`training successful`)
         return result
     }
