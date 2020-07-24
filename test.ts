@@ -1,8 +1,8 @@
-import { assertEquals, fail } from "https://deno.land/std/testing/asserts.ts";
+import { fail } from "https://deno.land/std/testing/asserts.ts";
 
-import { NLP } from './nlp.ts'
+import { NLP } from 'https://raw.githubusercontent.com/michael-spengler/nlp/master/nlp.ts'
 
-import {exampleTrainingData} from './training-data.ts'
+import {exampleTrainingData} from 'https://raw.githubusercontent.com/michael-spengler/nlp/master/training-data.ts'
 
 
 const trainingData = JSON.parse(exampleTrainingData)

@@ -1,5 +1,5 @@
 import api from 'https://deno.land/x/api/index.ts' 
-import { IDocument, IAnswer } from "./interfaces.ts"
+import { IDocument, IAnswer } from "https://raw.githubusercontent.com/michael-spengler/nlp/master/interfaces.ts"
 
 export class NLP {
     
