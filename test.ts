@@ -5,12 +5,11 @@ import { NLP } from 'https://raw.githubusercontent.com/michael-spengler/nlp/mast
 import {exampleTrainingData} from 'https://raw.githubusercontent.com/michael-spengler/nlp/master/training-data.ts'
 
 
-const trainingData = JSON.parse(exampleTrainingData)
 const languages = ['en']
 
 Deno.test("training and getting an appropriate response ", async (): Promise<void> => {
 
-    const clientId = (await NLP.train(trainingData.documents, trainingData.answers, languages)).clientId
+    const clientId = (await NLP.train(exampleTrainingData.documents, exampleTrainingData.answers, languages)).clientId
 
     if (typeof(clientId) === "string" && Number(clientId) > 1595612098416){
         assertAppropriateResponse(clientId)
