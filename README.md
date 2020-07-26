@@ -2,12 +2,12 @@
 
 ## Call usage example via command line
 ```
-deno run --allow-net --reload https://raw.githubusercontent.com/michael-spengler/nlp/master/usage-example-https.ts
+deno run --allow-net --reload https://deno.land/x/nlp/usage-example.ts
 ```
 
 ## Execute the tests
 ```
-deno test --allow-net --reload https://raw.githubusercontent.com/michael-spengler/nlp/master/test.ts
+deno test --allow-net --reload https://deno.land/x/nlp/test.ts
 
 ``` 
 
