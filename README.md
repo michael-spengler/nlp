@@ -2,8 +2,8 @@
 
 ## Usage Example for Your Code
 ```
-import { NLP } from 'https://deno.land/x/nlp@1.0.0/nlp.ts'
-import {exampleTrainingData} from 'https://deno.land/x/nlp@1.0.0/training-data.ts'
+import { NLP } from 'https://deno.land/x/nlp@1.1.0/nlp.ts'
+import {exampleTrainingData} from 'https://deno.land/x/nlp@1.1.0/training-data.ts'
 
 
 const languages = ['en']
