@@ -2,7 +2,7 @@
 
 ## Usage Example for Your Code
 ```
-import { NLP } from 'https://deno.land/x/nlp@1.1.1/nlp.ts'
+import { NLP } from 'https://deno.land/x/nlp@1.1.2/nlp.ts'
 import {exampleTrainingData} from 'https://deno.land/x/nlp@1.1.1/training-data.ts'
 
 
@@ -17,7 +17,7 @@ console.log(`response: \n${JSON.stringify(response)}`)
 
 ## Call Usage Example via Command Line
 ```
-deno run --allow-net --reload https://deno.land/x/nlp@1.1.1/usage-example.ts
+deno run --allow-net --reload https://deno.land/x/nlp@1.1.2/usage-example.ts
 ```
 
 ## Execute the tests
