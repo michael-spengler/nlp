@@ -1,6 +1,6 @@
 
-import { NLP } from 'https://deno.land/x/nlp@1.1.0/nlp.ts'
-import {exampleTrainingData} from 'https://deno.land/x/nlp@1.1.0/training-data.ts'
+import { NLP } from 'https://deno.land/x/nlp@1.2.1/nlp.ts'
+import {exampleTrainingData} from 'https://deno.land/x/nlp@1.2.1/training-data.ts'
 
 
 const languages = ['en']

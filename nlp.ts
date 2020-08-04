@@ -1,5 +1,5 @@
 import { Request } from 'https://deno.land/x/request@1.1.0/request.ts' 
-import { IDocument, IAnswer } from "https://deno.land/x/nlp@1.1.2/interfaces.ts"
+import { IDocument, IAnswer } from "https://deno.land/x/nlp@1.2.1/interfaces.ts"
 
 export class NLP {
     
