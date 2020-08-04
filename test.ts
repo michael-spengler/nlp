@@ -1,8 +1,8 @@
 import { fail } from "https://deno.land/std/testing/asserts.ts";
 
-import { NLP } from 'https://deno.land/x/nlp/nlp.ts'
+import { NLP } from './nlp.ts'
 
-import { exampleTrainingData } from 'https://deno.land/x/nlp/training-data.ts'
+import { exampleTrainingData } from './training-data.ts'
 
 
 const languages = ['en']
