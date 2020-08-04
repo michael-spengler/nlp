@@ -17,3 +17,5 @@ The following comment might be interesting if you want to look into some backgro
 
 Feel free to contribute via pull requests. 
 
+## Link to Deno
+This module can be found here: [https://deno.land/x/nlp](https://deno.land/x/nlp).
